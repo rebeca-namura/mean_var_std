@@ -35,12 +35,12 @@ def calculate(list):
 
     # Return the dictionary with the required format.
     calculations = {
-        'mean': [mean_axis2, mean_axis1, mean_flattened],
-        'variance': [var_axis2, var_axis1, var_flattened],
-        'standard deviation': [std_axis2, std_axis1, std_flattened],
-        'max': [max_axis2, max_axis1, max_flattened],
-        'min': [min_axis2, min_axis1, min_flattened],
-        'sum': [sum_axis2, sum_axis1, sum_flattened]
+        'mean': [mean_axis1, mean_axis2, mean_flattened],
+        'variance': [var_axis1, var_axis2, var_flattened],
+        'standard deviation': [std_axis1, std_axis2, std_flattened],
+        'max': [max_axis1, max_axis2, max_flattened],
+        'min': [min_axis1, min_axis2, min_flattened],
+        'sum': [sum_axis1, sum_axis2, sum_flattened]
     }
     
     return calculations
